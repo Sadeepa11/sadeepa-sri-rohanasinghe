@@ -43,7 +43,7 @@ export default function Projects() {
       image: meImage, // Use a unique image here instead of repeating
       tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
       demoLink: "https://project-demo.com",
-      githubLink: "https://github.com/username/project"
+      githubLink: "https://github.com/Sadeepa11/sadeepa-sri-rohanasinghe"
     },
     {
       id: 4,
