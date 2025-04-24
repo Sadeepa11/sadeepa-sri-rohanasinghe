@@ -37,7 +37,7 @@ export default function Home() {
     <div className="min-h-screen w-full bg-black text-white font-sans flex flex-col items-center justify-start">
       <Navbar routes={routes} onNavigate={setActivePage} active={activePage} />
 
-      {/* <SplashCursor/> */}
+      <SplashCursor/>
 
       <div className="w-full max-w-7xl px-4 sm:px-6 md:px-12 py-10">
         {renderContent()}

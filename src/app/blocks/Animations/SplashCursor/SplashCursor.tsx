@@ -1384,7 +1384,7 @@ export default function SplashCursor({
     }
 
     function generateColor(): ColorRGB {
-      const brightnessFactor = 0.2; // try 0.1 or 0.2 for even dimmer
+      const brightnessFactor = 0.05; // try 0.1 or 0.2 for even dimmer
       return {
         r: (84 / 255) * brightnessFactor,
         g: (233 / 255) * brightnessFactor,
