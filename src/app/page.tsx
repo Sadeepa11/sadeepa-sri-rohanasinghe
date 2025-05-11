@@ -9,6 +9,10 @@ import SplashCursor from './blocks/Animations/SplashCursor/SplashCursor';
 import Me from './Pages/me';
 import AnimatedAbout from './Pages/about';
 import Projects from './Pages/projects';
+// import Squares from './Squares';
+import Squares from './blocks/Backgrounds/Squares/Squares';
+import Particles from './blocks/Backgrounds/Particles/Particles';
+
 
 const routes = {
   home: { label: 'Home' },
@@ -35,9 +39,39 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full bg-black text-white font-sans flex flex-col items-center justify-start">
+
+<div className="absolute inset-0 z-0">
+{/* <div style={{ width: '100vw', height: '100%', position: 'relative' }}> */}
+  <Particles
+    particleColors={['#ffffff', '#ffffff']}
+    particleCount={1000}
+    particleSpread={30}
+    speed={0.1}
+    particleBaseSize={100}
+    moveParticlesOnHover={true}
+    alphaParticles={false}
+    disableRotation={false}
+  />
+</div>
+
+{/* </div> */}
+
+{/* <div className="absolute inset-0 z-0">
+ <Squares 
+          speed={1} 
+          squareSize={100}
+          direction="diagonal"
+          borderColor="#fff"
+          hoverFillColor="#222"
+        />
+      </div>        */}
       <Navbar routes={routes} onNavigate={setActivePage} active={activePage} />
 
-      <SplashCursor/>
+    
+
+
+
+      {/* <SplashCursor/> */}
 
       <div className="w-full max-w-7xl px-4 sm:px-6 md:px-12 py-10">
         {renderContent()}

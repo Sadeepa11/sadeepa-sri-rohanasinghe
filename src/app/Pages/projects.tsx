@@ -12,7 +12,8 @@ import Image from 'next/image';
 
 
 export default function Projects() {
-  const [theme, setTheme] = useState('cyan'); // Keeping the theme as 'cyan'
+  const [theme, setTheme] = useState<keyof typeof themeClasses>('cyan');
+
 
 
 
