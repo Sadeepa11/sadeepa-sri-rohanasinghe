@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Sadeepa Sri Rohanasinghe - Fullstack Software Engineer",
   description: "I'm Sadeepa, a fullstack software engineer from Sri Lanka. Explore my portfolio, projects, and skills.",
   keywords: ["Sadeepa", "Sadeepa Sri Rohanasinghe", "Fullstack Developer", "Software Engineer", "Portfolio", "React", "Next.js", "JavaScript"],
-  metadataBase: new URL("https://your-website-url.com"), // Replace with actual domain
+  metadataBase: new URL("https://sadeepa-sri-rohanasinghe-39s6.vercel.app/"), // Replace with actual domain
   openGraph: {
     title: "Sadeepa Sri Rohanasinghe - Portfolio",
     description: "Discover Sadeepa's latest projects and technical skills as a fullstack software engineer.",
