@@ -14,7 +14,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ routes, onNavigate, active }) => {
   return (
-    <div className="flex gap-4 py-4 justify-center  w-full sticky top-0 z-50">
+    <div className="flex gap-4 py-4 justify-center z-10  w-full sticky top-0 z-50">
       {Object.entries(routes).map(([key, route]) => (
         <button
           key={key}

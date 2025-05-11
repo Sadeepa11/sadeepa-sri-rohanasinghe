@@ -66,7 +66,7 @@ export default function Home() {
         />
       </div>        */}
 
-<div className="relative z-10 w-full flex flex-col items-center">
+{/* <div className="relative z-10 w-full flex flex-col items-center"> */}
       <Navbar routes={routes} onNavigate={setActivePage} active={activePage} />
 
     
@@ -75,10 +75,10 @@ export default function Home() {
 
       {/* <SplashCursor/> */}
 
-      <div className="w-full max-w-7xl px-4 sm:px-6 md:px-12 py-10">
+      <div className="w-full max-w-7xl z-10 px-4 sm:px-6 md:px-12 py-10">
         {renderContent()}
       </div>
     </div>
-    </div>
+    // </div>
   );
 }
