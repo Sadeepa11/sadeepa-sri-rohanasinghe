@@ -43,7 +43,7 @@ export default function Projects() {
       description: "A responsive portfolio website showcasing projects and skills.",
       image: meImage, // Use a unique image here instead of repeating
       tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      demoLink: "https://project-demo.com",
+      demoLink: "https://sadeepa-sri-rohanasinghe-39s6.vercel.app/",
       githubLink: "https://github.com/Sadeepa11/sadeepa-sri-rohanasinghe"
     },
     {
