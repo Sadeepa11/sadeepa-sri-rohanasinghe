@@ -46,7 +46,7 @@ const LocationDisplay = () => {
           
           <div className="mt-6 flex  justify-center">
             <a 
-              href="/assets/Sadeepa-Sri-Rohanasinghe-Resume.pdf" 
+              href="/assets/Sadeepa-Sri-Rohansinghe-Resume.pdf" 
               download 
               className="group relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-cyan-300 border-2 border-cyan-300 rounded-md shadow-md transition-all duration-500 ease-in-out hover:bg-cyan-300 hover:text-black"
             >
