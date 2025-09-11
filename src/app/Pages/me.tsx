@@ -5,8 +5,10 @@ import RotatingText from "../blocks/Animations/TextAnimations/RotatingText/Rotat
 import Image from 'next/image';
 import ContactDetails from "../Components/ContactDetails";
 import LocationDisplay from '../Components/LocationDisplay';
-import { Sparkles, Download, MessageCircle, ArrowDown, ReactLogo } from 'lucide-react';
+import { Sparkles, Download, MessageCircle, ArrowDown} from 'lucide-react';
 import { motion } from 'framer-motion';
+import { SiReact } from 'react-icons/si';
+
 
 function Me() {
   const [isVisible, setIsVisible] = useState(false);
